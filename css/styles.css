@@ -1,0 +1,136 @@
+body{
+	background-color: #3495ed;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	
+}
+
+.contenedor {
+	max-width: 900px;
+	width: 100%;
+	min-height: 300px;
+	border: dashed 1px #808;
+	padding: 10px; 
+	margin: 0 auto;
+}
+
+.item {
+	width: 128px;
+	height: 128px;
+	border-radius: 15px #000;
+	background-image: url(../images/pirata.jpg);
+	background-repeat: no-repeat;
+	background-position: .5px .5px;
+	background-size: 128px;
+	display: inline-block;
+	margin: 10px;
+	cursor: pointer;
+}
+
+
+.item:hover {
+	box-shadow: 0px 6px 17px #a9a9a9;
+	-webkit-transition: all .5s ease-out;
+	-moz-transition: all .5s ease-out;
+	-o-transition: all .5s ease-out;
+	transition: all .5s ease-out;
+}
+
+.checked-item {
+	background-image: url(../images/checked-icon.png);
+}
+
+.sin-fondo-item {
+	background-image: none;
+}
+
+.img-logo {
+	width: 120px;
+	margin: 0 auto;
+	display: block;
+	border-radius: 10px;
+}
+
+.cabecera-principal {
+	margin-bottom: 10px;
+}
+
+.titulo-juego {
+	color: white;
+	text-align: center;
+}
+
+
+.contenedor-hora {
+	color: white;
+	float: center;
+	text-align: right;
+	width: 50%;
+	padding-top: 30px;
+}
+
+.contenedor-vidas {
+	color: white;
+	float: left;
+	width: 50%
+}
+
+.contenedor-vidas span {
+	font-size: 30px;
+	font-weight: bold;
+	margin-right: 5px;
+}
+
+.contenedor-vidas img {
+	width: 40px;
+	margin: 5px;
+	border-radius: 15px;
+}
+
+.clear {
+	clear: both;
+}
+
+.numero-carta {
+	float: left;
+	font-size: 30px;
+	line-height: 3;
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+#contenedor-mensaje-victoria, #contenedor-mensaje-derrota  {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #000000ad;
+}
+
+#mensaje-victoria, #mensaje-derrota {
+	min-height: 400px;
+	background: white;
+	top: 20%;
+	position: relative;
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.ocultar-mensaje {
+	display: none;
+}
+
+.btn {
+	width: 120px;
+	height: 30px;
+	margin-bottom: 5px;
+	background: #a4e4a7;
+	border-radius: solid #628a64 10px;
+	font-weight: bold;
+	cursor: pointer;
+}

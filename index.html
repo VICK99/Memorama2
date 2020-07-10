@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Juego de pares</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=devise-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	
+	<header class="cabecera-principal">
+		<img src="images/ancla.jpg" alt="logo de juegos" class="img-logo">
+		<h1 class="titulo-juego">Juego en el Fondo del Mar</h1>
+	</header>
+
+	<div class="contenedor-vidas">
+		<span>Vidas:</span>
+		<img src="images/ancla.jpg">
+		<img src="images/ancla.jpg">
+		<img src="images/ancla.jpg">
+		<img src="images/ancla.jpg">
+		<img src="images/ancla.jpg">
+	</div>
+	<div class="contenedor-hora">
+		<span class="hora">00</span>:
+		<span class="minuto">00</span>:
+		<span class="segudo">00</span>
+	</div>
+	<div class="clear"></div>
+	<div class="contenedor"></div>
+	<div id="contenedor-mensaje-victoria" class="ocultar-mensaje">
+		<div id="mensaje-victoria">
+			<h1>¡¡¡¡Felicidades!!!</h1>
+			<h4>Usted ha ganado.</h4>
+			<button class="btn">Otra vez?</button>
+			<img src="images/Aplausos.gif" alt="victoria" width="100%" />
+		</div>
+	</div>
+	<div id="contenedor-mensaje-derrota" class="ocultar-mensaje">
+		<div id="mensaje-derrota">
+			<h1>¡¡¡¡Lo sentimos!!!</h1>
+			<h4>Ha perdido.</h4>
+			<button class="btn">Jugar Otra vez?</button>
+			<img src="images/fallo.gif" alt="Derrota" width="600px" height="400px">
+		</div>
+	</div>
+	<script src="js/scripts.js"></script>
+</body>
+</html>
